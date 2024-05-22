@@ -27,4 +27,4 @@ function insertUser(username, password, firstName, lastName, phoneNumber, addres
         }));
     });
 }
-insertUser("lubudubu", "Mir", "Bashir", "MySecretPassw123ord", "8899080590", "harwan", false);
+insertUser("lubna123", "Mir", "Lubna", "LubnasSecretPassw123ord", "9596123123", "Srinagar", true);

@@ -11,16 +11,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const client_1 = require("@prisma/client");
 const prisma = new client_1.PrismaClient();
-function createTodo(title, description, userId) {
+function deleteById(id) {
     return __awaiter(this, void 0, void 0, function* () {
         var _a;
-        yield ((_a = prisma === null || prisma === void 0 ? void 0 : prisma.todo) === null || _a === void 0 ? void 0 : _a.create({
-            data: {
-                userId,
-                title,
-                description,
+        yield ((_a = prisma === null || prisma === void 0 ? void 0 : prisma.user) === null || _a === void 0 ? void 0 : _a.delete({
+            where: {
+                id,
             },
         }));
     });
 }
-createTodo("Lubna's todo title!", "Lubna's todo description", 9);
+deleteById(9);

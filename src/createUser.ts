@@ -25,11 +25,11 @@ async function insertUser(
 }
 
 insertUser(
-  "lubudubu",
+  "lubna123",
   "Mir",
-  "Bashir",
-  "MySecretPassw123ord",
-  "8899080590",
-  "harwan",
-  false
+  "Lubna",
+  "LubnasSecretPassw123ord",
+  "9596123123",
+  "Srinagar",
+  true
 );
