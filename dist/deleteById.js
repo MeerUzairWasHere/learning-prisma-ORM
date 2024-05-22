@@ -22,3 +22,5 @@ function deleteById(id) {
     });
 }
 deleteById(9);
+// you need to specify this in schema that onDelete:Cascade
+// it means anything that refers to this user that data will get deleted also
